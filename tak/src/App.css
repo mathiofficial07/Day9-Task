@@ -26,7 +26,7 @@
 } */
 
 /* weather app */
-body {
+/* body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -88,4 +88,38 @@ button:hover {
   color: red;
   font-weight: bold;
 }
+ */
 
+ /*To DO List */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:cyan;
+  color:black;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-input input {
+  width: 70%;
+  padding: 10px;
+}
